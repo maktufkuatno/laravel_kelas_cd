@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('mhs','MahasiswaController@index');
+Route::get('mhs','mahasiswacontroller@index');
+Route::get('mhs_list','mahasiswacontroller@mhs_list');
