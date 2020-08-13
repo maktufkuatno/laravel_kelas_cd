@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('title', 'halaman mahasiswa')
-
-@endsection
+@section('bread1', 'Mahasiswa')
+@section('bread2', 'Daftar mahasiswa')
 
 @section('content')
-    <p>this is my body content.</p>
-@endselection
+    <p>This is my body content.</p>
+@endsection
